@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+pydantic
+PyJWT
+passlib[bcrypt]
+sqlalchemy
+pandas<2.1.0
+scikit-learn
+xgboost
+pyspark
+pytest
+httpx
+python-multipart
+email-validator
+google-generativeai
+shap
+numpy

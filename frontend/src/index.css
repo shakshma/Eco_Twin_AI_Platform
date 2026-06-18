@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 antialiased selection:bg-eco-500/30 selection:text-eco-200;
+    font-family: 'Outfit', 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Custom scrollbars for a premium glassmorphic feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-900/50;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-800 rounded-full border border-slate-700/50 hover:bg-slate-700;
+}
