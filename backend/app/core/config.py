@@ -1,4 +1,4 @@
-iimport os
+import os
 
 class Settings:
     PROJECT_NAME: str = "EcoTwin AI"
